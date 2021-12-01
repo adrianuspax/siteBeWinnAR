@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Nanum+Myeongjo&display=swap&subset=korean');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap');
+
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff')
+        format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-5Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff')
+        format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-7ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff')
+        format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+body {
+    font-family: 'S-CoreDream-3Light';
+    /* -webkit-overflow-scrolling: touch; */
+    /* height: -webkit-fill-available; */
+    /*-webkit-touch-callout: none; */
+}
+div {
+    box-sizing: border-box;
+}
+p {
+    word-break: keep-all;
+    line-height: 2rem;
+}
+.bo-5,
+.bo-6 {
+    font-family: 'S-CoreDream-5Medium';
+}
+.bo-7,
+.bo-8 {
+    font-family: 'S-CoreDream-7ExtraBold';
+}
+.page-1-bottom-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+.canvas {
+    width: 100vw;
+    max-width: 100%;
+    min-height: 100vh;
+}
+.di-col {
+    display: flex;
+    flex-direction: column;
+}
+.di-row {
+    display: flex;
+    flex-direction: row;
+}
+h1 {
+    font-size: 4.25rem;
+}
+h2 {
+    font-size: 2.75rem;
+}
+h3 {
+    font-size: 1.8rem;
+}
+h4 {
+    font-size: 2.25rem;
+}
+h5 {
+    font-size: 1.375rem;
+}
+h6 {
+    font-size: 1.25rem;
+}
+p {
+    font-size: 1.5rem;
+}
+.big {
+    font-size: 50px;
+}
+.youtube-description {
+    font-size: 1.375rem;
+    line-height: 2rem;
+}
+.header-description {
+    font-size: 1.625rem;
+}
+.co-black {
+    color: #2c2c2c;
+}
+.co-red {
+    color: #dd1c13;
+}
+.co-white {
+    color: white;
+}
+.row-col {
+    display: flex;
+    flex-direction: row;
+}
+.media-1 {
+    width: 40%;
+}
+.media-2 {
+    width: 60%;
+}
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+.description-container {
+    justify-content: center;
+}
+.media-container {
+    align-items: center;
+    justify-content: center;
+}
+.page {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+.row-2 {
+    min-height: calc((100vh / 9) * 2);
+}
+.row-3 {
+    min-height: calc((100vh / 9) * 3);
+}
+.row-9 {
+    flex-grow: 1;
+    min-height: calc((100vh / 9) * 6);
+}
+.grow-1 {
+    flex-grow: 1;
+}

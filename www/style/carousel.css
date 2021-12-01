@@ -1,0 +1,57 @@
+.section-padding {
+    display: flex;
+    position: relative;
+    width: 100%;
+    top: -40px;
+    margin: 0 auto;
+}
+.owl-item .item {
+    background-color: white;
+    transform: translate3d(0, 0, 0);
+    /* DO NOT REMEMBER WHERE TU PUT THIS, SEARCH FOR 3D ACCELERATION */
+    transform: scale(0.9);
+    transition: all 0.25s ease-in-out;
+    margin: 50px 0;
+    /* OVERWRITE PLUGIN MARGIN */
+    align-items: center;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.459);
+}
+.item h5 {
+    box-sizing: border-box;
+    margin: 20px 0 15px 0;
+    width: 100%;
+    padding-left: 15px;
+}
+.item p {
+    box-sizing: border-box;
+    line-height: 1.4rem;
+    font-size: 1rem;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.screenshot_slider .owl-item .item img {
+    -webkit-transition: 0.3s;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.screenshot_slider .owl-item.center .item {
+    transform: scale(1.03);
+}
+.screenshot_slider .owl-item.center .item img {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1);
+}
+.screenshot_slider .owl-nav {
+    text-align: center;
+    margin: 40px 0;
+}
+.screenshot_slider .owl-nav button {
+    font-size: 24px !important;
+    margin: 10px;
+    color: #033aff !important;
+}
